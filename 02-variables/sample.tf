@@ -35,3 +35,12 @@ variable "demo4" {
     is_started = true
   }
 }
+
+output "demo1" {
+  value = var.demo3[0]
+}
+
+output "demo2" {
+  value = var.demo4["course"]
+}
+
