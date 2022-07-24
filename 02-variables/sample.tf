@@ -48,7 +48,9 @@ output "demo2" {
 
 ### variable from TFVARS
 
-variable "input1" {}
+variable "input1" {
+  type = number
+}
 variable "input2" {}
 
 output "input1" {
@@ -59,3 +61,8 @@ output "input2" {
   value = var.input2
 }
 
+### Vars from shell environment
+variable "input_shell" {}
+  output "input_shell"{
+    value = var.input_shell
+  }
