@@ -1,2 +1,2 @@
-input1 = 1
-input2 = 2
+input1 = 100
+input2 = 200
